@@ -1,5 +1,4 @@
 import { createApp } from 'vue';
+import ProductPage from './pages/ProdcutPage';
 
-const app = createApp({
-    template: '<h1>this is vue</h1>',
-}).mount('#app');
+const app = createApp(ProductPage).mount('#app');
